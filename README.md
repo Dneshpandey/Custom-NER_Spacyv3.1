@@ -3,9 +3,9 @@ This project demonstrates how to build a Custom NER Model in Spacy v3.1
 		
 	Python 3.8.8 and Spacy v3.1
 
-Spacy v3.1 does not support or needs to be modified many things developed for Spacy v2.
+There are several changes between Spacy v3.1 and Spacy v2.
  
-Overview 
+Overview of the model
 
 (Refer model/Train.py and model/Test.py)
 	Initially, the both the train and test datas are cleaned.
