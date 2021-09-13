@@ -7,7 +7,7 @@ There are several changes between Spacy v3.1 and Spacy v2.
  
 Overview of the model
 
-Initially, the both the train and test datas are cleaned.
+Initially, the train and test datas are cleaned.
 The data requires to be converted into the NER format. However, the converted data is in the old format and Spacy v3.1 no longer accepts  data in this format. This has to be converted to ".spacy" format by converting  first in doc and then a docbin.
 (Refer model/Train.py and model/Test.py)
 (FYI- model/Train.Spacy and model/Test.Spacy is provided.)
