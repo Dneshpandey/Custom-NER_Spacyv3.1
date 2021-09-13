@@ -19,11 +19,11 @@ The custom training in Space v3. requires base_config.cfg and config.cfg. I crea
 
 I have developed a config.cfg that is required in Spacev3. Trainning process is carried out in Terminal.
 	
-	#python -m spacy init fill-config base_config.cfg config.cfg
+	python -m spacy init fill-config base_config.cfg config.cfg
 
 Once, all the requirements are met, I trained the custom model. (Sample screenshot is attached under the name: Training model(NER) Spacy v3
 		
-	#python -m spacy train config.cfg --output ./output --paths.train ./train.spacy --paths.dev ./dev.spacy
+	python -m spacy train config.cfg --output ./output --paths.train ./train.spacy --paths.dev ./dev.spacy
 
 (Refer: model/output)
  Once the model is fully trained, it can be saved. 
